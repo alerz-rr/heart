@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top:10% ;
+
+}
+#image{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+#select{
+    width: 300px;
+    border-radius: 5px;
+    font-size: 26px;
+}
